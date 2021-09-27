@@ -1,0 +1,81 @@
+﻿<Page
+    x:Class="Tas3.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Tas3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <!--UP9-->
+   <!-- <StackPanel>
+        <StackPanel>
+            <TextBlock>First</TextBlock>
+            <TextBlock>Second</TextBlock>
+            <TextBlock>Third</TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Fourth"/>
+                <TextBlock></TextBlock>
+                <Button>Sixth</Button>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Height="200">
+            <Rectangle Fill="Red" Height="100"/>
+        </StackPanel>
+    </StackPanel>-->
+    
+    <!--Up11-->
+    <!--<Grid Margin="10,0,0,0" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="ACME Sales Corp" FontSize="48" Grid.ColumnSpan="3" Margin="0,0,0,20"/>
+
+        <TextBlock Grid.Row="1" Text="First Name:" VerticalAlignment="Center" />
+        <TextBlock Grid.Row="1" Grid.Column="1" Margin="0,0,0,10"/>
+
+        <TextBlock Grid.Row="2" Text="Last Name:" VerticalAlignment="Center" />
+        <TextBlock Grid.Row="2" Grid.Column="1" Margin="0,0,0,10"/>
+
+        <TextBlock Grid.Row="3" Text="Email:" VerticalAlignment="Center" />
+        <TextBlock Grid.Row="3" Grid.Column="1" Margin="0,0,0,10"/>
+
+        <Button Grid.Row="4" Grid.Column="1" Content="Save"/>
+
+    </Grid>-->
+    
+    <!--Up13-->
+    <StackPanel Margin="10,20,0,0">
+        <TextBlock Text="Lorem Ipsum" FontSize="48" Margin="0,0,0,20"/>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Width="250" TextWrapping="Wrap" Margin="0,0,20,0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum sit amet neque nec eros interdum laoreet nec `
+            </TextBlock>
+            <TextBlock Width="500" TextWrapping="Wrap" Margin="0,0,20,0">
+                Vestibulum varius bibenfum metus. Aliquam erat volutpat.
+                Praesent volupat odio sec ante posuere lacintia. Suspendi
+                Nunc a vehicula velit. Vivamus rutrum elementum massa in
+            </TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Fill="Blue" Width="200" Height="200" VerticalAlignment="Top"/>
+                <StackPanel>
+                    <Rectangle Fill="Red" Width="100" Height="100"/>
+                    <Rectangle Fill="Yellow" Width="100" Height="100"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</Page>
